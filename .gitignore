@@ -6,3 +6,5 @@
 /src/.vs
 /src/CreditoService.Api/bin/Debug/net8.0
 /src/CreditoService.Api/obj
+/src/CreditoService.Tests/bin/Debug/net8.0
+/src/CreditoService.Tests/obj
