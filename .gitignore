@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/CreditoService.Tests/bin
+/src/CreditoService.Api/bin/Debug/net8.0
+/src/CreditoService.Api/obj
+/src/CreditoService.Tests/obj
