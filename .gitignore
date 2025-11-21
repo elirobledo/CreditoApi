@@ -8,3 +8,4 @@
 /src/CreditoService.Api/obj
 /src/CreditoService.Tests/bin/Debug/net8.0
 /src/CreditoService.Tests/obj
+/src/CreditoService.Tests/bin/Release/net8.0

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreditoService.Api", "CreditoService.Api", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditoService.Api", "CreditoService.Api\CreditoService.Api.csproj", "{7179871F-C9AD-4CCD-ABE5-916E0649F7FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreditoService.Tests", "CreditoService.Tests", "{CD6D02B2-B394-444E-BCEB-25784F72CD23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditoService.Tests", "CreditoService.Tests\CreditoService.Tests.csproj", "{2C27A6E3-1776-4C00-95EC-4749F4C4E188}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD6D8CB5-A8AE-49C3-83C3-0B9DF4CA5191}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7179871F-C9AD-4CCD-ABE5-916E0649F7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7179871F-C9AD-4CCD-ABE5-916E0649F7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7179871F-C9AD-4CCD-ABE5-916E0649F7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7179871F-C9AD-4CCD-ABE5-916E0649F7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C27A6E3-1776-4C00-95EC-4749F4C4E188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C27A6E3-1776-4C00-95EC-4749F4C4E188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C27A6E3-1776-4C00-95EC-4749F4C4E188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C27A6E3-1776-4C00-95EC-4749F4C4E188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {AD6D8CB5-A8AE-49C3-83C3-0B9DF4CA5191}
+		{7179871F-C9AD-4CCD-ABE5-916E0649F7FD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CD6D02B2-B394-444E-BCEB-25784F72CD23} = {AD6D8CB5-A8AE-49C3-83C3-0B9DF4CA5191}
+		{2C27A6E3-1776-4C00-95EC-4749F4C4E188} = {CD6D02B2-B394-444E-BCEB-25784F72CD23}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAD91F88-9C11-4A04-908A-DBE64CFDC29E}
+	EndGlobalSection
+EndGlobal
